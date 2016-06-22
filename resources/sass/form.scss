@@ -1,0 +1,36 @@
+.form-control {
+	margin: 0 0 $gutter 0;
+	box-shadow:none;
+	height:auto;
+	padding:0.8rem $gutter;
+	background-color:$form-control-bg-color;
+	border-radius:$border-radius;
+
+	appearance:none;
+	-webkit-appearance:none;
+	-moz-appearance:none;
+	-ms-appearance:none;
+
+	&:focus {
+		outline: 0;
+    		box-shadow: none;
+    		border-color:$color-1;
+	}
+}
+label {
+	margin-bottom:calc(#{$gutter} / 3);
+	font-weight:normal;
+}
+textarea {
+	resize:vertical;
+}
+button[type="submit"] {
+	border:0;
+
+	&:focus {
+		outline:0;
+	}
+}
+.error {
+	color:$color-negative;
+}

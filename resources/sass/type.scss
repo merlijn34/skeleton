@@ -1,0 +1,76 @@
+h1,
+h2,
+h3,
+h4,
+p,
+p.lead,
+.content ul,
+.content ol,
+blockquote {
+	margin:0 0 $gutter 0;
+	float:left;
+	width:100%;
+}
+blockquote {
+	margin-bottom:calc(#{$gutter} * 2);
+}
+a {
+	color:$link-color;
+
+	&:hover,
+	&:active,
+	&:focus {
+		color:lighten($link-color, 10%);
+	}
+
+	&:focus {
+		outline:none !important;
+	}
+}
+p.lead {
+	font-size:1.2rem;
+	font-weight:bold;
+}
+hr {
+	margin:2rem 0;
+	float:left;
+	width:100%;
+}
+h1 {
+	font-size:5rem;
+	word-break:break-word;
+}
+h2 {
+	font-size:4rem;
+}
+h3 {
+	font-size:3rem;
+}
+h4 {
+	font-size:2rem;
+}
+h5 {
+	font-size:1.5rem;
+}
+blockquote {
+    padding: 0;
+    font-size: 2rem;
+    font-weight:bold;
+    border:0;
+
+    footer {
+    	line-height:$line-height;
+    	font-size:1rem;
+
+    	&:before {
+    		content:'';
+    	}
+    }
+}
+.meta {
+	opacity:0.5;
+
+	+ p {
+		padding-top:calc(#{$gutter} / 2);
+	}
+}

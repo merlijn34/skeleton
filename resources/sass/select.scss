@@ -1,0 +1,41 @@
+.styled-select {
+	position:relative;
+	margin: 0 0 $gutter 0;
+	select {
+		cursor:pointer;
+		appearance:none;
+		-webkit-appearance:none;
+		-moz-appearance:none;
+		-ms-appearance:none;
+		margin:0;
+	}
+
+	&:before {
+		content:'';
+		position:absolute;
+		right:$gutter;
+		bottom:54%;
+		width: 0; 
+		height: 0; 
+		border-left: 4px solid transparent;
+		border-right: 4px solid transparent;
+		border-bottom: 4px solid black;
+		pointer-events:none;
+	}
+
+	&:after {
+		content:'';
+		position:absolute;
+		right:$gutter;
+		top:54%;
+		width: 0; 
+		height: 0; 
+		border-left: 4px solid transparent;
+		border-right: 4px solid transparent;
+		border-top: 4px solid black;
+		pointer-events:none;
+	}
+}
+select::-ms-expand {
+    display: none;
+}

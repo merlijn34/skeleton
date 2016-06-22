@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="40px" height="40px" viewBox="0 0 40 40" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns">
+    <!-- Generator: Sketch 3.5.1 (25234) - http://www.bohemiancoding.com/sketch -->
+    <title>icon-facebook</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <path id="path-1" d="M0,0.0157303371 L39.9842697,0.0157303371 L39.9842697,40 L0,40"></path>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSPage">
+        <g id="icon-facebook" sketch:type="MSArtboardGroup">
+            <mask id="mask-2" sketch:name="Clip 2" fill="white">
+                <use xlink:href="#path-1"></use>
+            </mask>
+            <g id="Clip-2"></g>
+            <path d="M37.7773933,0.0157902622 L2.20675655,0.0157902622 C0.98788015,0.0157902622 1.49812734e-05,1.00365543 1.49812734e-05,2.22253184 L1.49812734e-05,37.7931685 C1.49812734e-05,39.0118951 0.98788015,40.0000599 2.20675655,40.0000599 L21.3568689,40.0000599 L21.3568689,24.516015 L16.1460824,24.516015 L16.1460824,18.4815581 L21.3568689,18.4815581 L21.3568689,14.0313708 C21.3568689,8.86702622 24.5110262,6.05489139 29.1180674,6.05489139 C31.3249588,6.05489139 33.221588,6.21908614 33.7742472,6.29249438 L33.7742472,11.6896479 L30.5790412,11.6911461 C28.073573,11.6911461 27.5883296,12.8817079 27.5883296,14.628824 L27.5883296,18.4815581 L33.5639101,18.4815581 L32.7859326,24.516015 L27.5883296,24.516015 L27.5883296,40.0000599 L37.7773933,40.0000599 C38.9961199,40.0000599 39.9841348,39.0118951 39.9841348,37.7931685 L39.9841348,2.22253184 C39.9841348,1.00365543 38.9961199,0.0157902622 37.7773933,0.0157902622" id="Fill-1" fill="#FFFFFF" sketch:type="MSShapeGroup" mask="url(#mask-2)"></path>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,23 @@
+.button {
+	display:inline-block;
+	margin:0 0 1rem 0;
+	padding:1rem;
+	background-color:gray;
+	color:white;
+	font-weight:bold;
+	border-radius:$button-border-radius;
+	border:0;
+
+	&:hover,
+	&:active,
+	&:focus {
+		text-decoration:none;
+		color:white;
+		outline:0;
+	}
+}
+.button-submit {
+	&:focus {
+		outline:0;
+	}
+}

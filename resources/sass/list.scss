@@ -1,0 +1,100 @@
+.unlist {
+	list-style:none;
+	margin:0;
+	padding:0;
+}
+.list-link {
+	@extend .unlist;
+	li a {
+		display:block;
+		padding:calc(#{$gutter} / 2) 0;
+	}
+}
+.list-check {
+	@extend .unlist;
+	li {
+		display:table;
+		position:relative;
+		padding:calc(#{$gutter} / 2) 0 calc(#{$gutter} / 2) calc(#{$gutter} * 1.8);
+
+		&:before {
+			content:'';
+			position:absolute;
+			left:0;
+			background-image:url(../images/icons/icon-check.svg);
+			height:calc(#{$gutter} * 1.5);
+			width:calc(#{$gutter} * 1.5);
+			background-size: 60%;
+    			background-repeat: no-repeat;
+    			background-position: center;
+		}
+	}
+}
+.list-arrow {
+	@extend .unlist;
+	li a{
+		display:table;
+		position:relative;
+		padding:calc(#{$gutter} / 2) 0 calc(#{$gutter} / 2) calc(#{$gutter} * 1.8);
+
+		&:before {
+			content:'';
+			position:absolute;
+			left:0;
+			background-image:url(../images/icons/icon-arrow-right.svg);
+			height:calc(#{$gutter} * 1.5);
+			width:calc(#{$gutter} * 1.5);
+			background-size: 60%;
+    			background-repeat: no-repeat;
+    			background-position: center;
+		}
+	}
+}
+.list-social {
+	@extend .unlist;
+	margin-bottom:1rem;
+
+	li {
+		display:inline-block;
+		margin:0 10px 10px 0;
+
+		a {
+			display:block;
+			width:$icon-social-size;
+			height:$icon-social-size;
+			background-color:$color-1;
+			background-size:40%;
+			background-repeat:no-repeat;
+			background-position:center;
+			box-shadow:0 0 0 $icon-social-size rgba(white,0) inset;
+
+			&:hover,
+			&:active,
+			&:focus {
+				box-shadow:0 0 0 $icon-social-size rgba(white,0.1) inset;
+			}
+
+			&.icon-facebook {
+				background-image:url(../images/icons/icon-facebook.svg);
+				background-color:$color-facebook;
+			}
+			&.icon-twitter {
+				background-image:url(../images/icons/icon-twitter.svg);
+				background-color:$color-twitter;
+			}
+			&.icon-instagram {
+				background-image:url(../images/icons/icon-instagram.svg);
+				background-color:$color-instagram;
+			}
+			&.icon-linkedin {
+				background-image:url(../images/icons/icon-linkedin.svg);
+				background-color:$color-linkedin;
+			}
+			&.icon-whatsapp {
+				background-image:url(../images/icons/icon-whatsapp.svg);
+				background-color:$color-whatsapp;
+			}
+		}
+	}
+
+}
