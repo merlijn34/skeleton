@@ -1,28 +1,32 @@
-$color-1:				#666;
-$font-1:				'Open sans';
+// main colors
+$color-1:					#666;
+$white:						#fff;
+$black:						#000;
 
-$link-color:			blue;
 
-$color-positive:			green;
-$color-warning:			orange;
-$color-negative:			red;
-$border-radius:			4px;
+// fonts
+$font-1:					'Open sans';
+// link color
+$link-color:				blue;
+// 
+$border-radius:				4px;
 $button-border-radius:		0;
-$line-height:			1.4;
-$gutter:				1rem;
-$checkbox-size:			1.8rem;
-$card-bg-color:			rgba(0,0,0,0.1);
+// 
+$line-height:				1.4;
+$gutter:					1rem;
+$checkbox-size:				1.8rem;
+// 
+$card-bg-color:				rgba(0,0,0,0.1);
 $card-border-radius:		$border-radius;
-
+// 
 $footer-bg-color:			darken($color-1, 30%);
-
-$form-control-bg-color:		white;
+// 
+$form-control-bg-color:		#fff;
 $form-control-border:		1px solid #ccc;
-
-
-$icon-social-size:		calc(#{$gutter} * 3);
+// social
+$icon-social-size:			calc(#{$gutter} * 3);
 $color-facebook:			#3b5998;
-$color-twitter:			#55acee;
+$color-twitter:				#55acee;
 $color-instagram:			#3f729b;
 $color-linkedin:			#0077b5;
 $color-whatsapp:			#43d854;
